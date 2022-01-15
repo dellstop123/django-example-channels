@@ -14,3 +14,4 @@ Check out the [blog post](https://realpython.com/blog/python/getting-started-wit
 1. Apply the migrations
 1. Install Redis (if necessary)
 1. Run the server
+1. Use CMD daphne example_channels.wsgi:application

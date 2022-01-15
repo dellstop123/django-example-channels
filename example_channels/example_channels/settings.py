@@ -25,7 +25,7 @@ SECRET_KEY = 'ie(7l3+psd-5k!(x!h84fn7i-vm$)!=^&3y4c-(*agj75!632k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -69,8 +69,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'example_channels.wsgi.application'
-
+# WSGI_APPLICATION = 'example_channels.wsgi.application'
+ASGI_APPLICATION = 'example_channels.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
